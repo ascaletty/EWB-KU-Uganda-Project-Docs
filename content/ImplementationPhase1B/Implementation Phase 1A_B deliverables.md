@@ -4,7 +4,5 @@ aliases: []
 tags: []
 title: Implementation Phase 1B deliverables
 ---
-#phase
-#docs 
-ImplementationPhase1A_B is the phase where we drilled the first borehole.
+ImplementationPhase1B is the phase where we drilled the first borehole.
 
