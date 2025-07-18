@@ -15,8 +15,18 @@ After the Assessment trip from the year previous, the team decided over the summ
 
 
 This phase was a struggle. There was a lot of financial issues and processes that came to stab us in the back late. One thing we learned during this phase was about [[Ugandan Time]]. In Uganda, time is not like it is in America where things are on a set time. When we were contracting the drilling of the borehole, construction happened a lot later because to them on time is a week later.
+<script>
+  window.borehole = function () {
+    alert('A callback was triggered');
+    // Simulate a mouse click:
+// window.location.href = "http://www.w3schools.com";
+  };
+</script>
 ```mermaid
-
+---
+config:
+  securityLevel='loose'
+---
 flowchart LR
     subgraph A [Borehole 1]
 classDef Implementation1ab fill:#458558, stroke:3c3836:
@@ -24,6 +34,7 @@ classDef Implementation1c fill:#d79921, stroke:3c3836;
 classDef Implementation2a fill:#cc241d, stroke:3c3836;
         direction TB
         borehole["`borehole`"]
+        click borehole borehole
         watertest["`watertest`"]
         tempseal["`Temporary Seal`"]
         class borehole,watertest,tempseal Implementation1ab
