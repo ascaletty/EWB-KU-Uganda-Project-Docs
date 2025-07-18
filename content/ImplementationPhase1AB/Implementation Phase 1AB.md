@@ -4,7 +4,7 @@ aliases: []
 tags:
   - phase
   - implementation
-title: Implementation Phase 1B deliverables
+title: Implementation Phase 1AB
 ---
 
 
@@ -19,8 +19,9 @@ This phase was a struggle. There was a lot of financial issues and processes tha
 
 flowchart LR
     subgraph A [Borehole 1]
-classDef Implementation1ab fill:#00022e;
-classDef Implementation1c fill:#cc5500
+classDef Implementation1ab fill:#458558, stroke:3c3836:
+classDef Implementation1c fill:#d79921, stroke:3c3836;
+classDef Implementation2a fill:#cc241d, stroke:3c3836;
         direction TB
         borehole["`borehole`"]
         watertest["`watertest`"]
@@ -34,10 +35,11 @@ classDef Implementation1c fill:#cc5500
 
     subgraph B [Borehole 2]
         direction TB
-        borehole2["`borehole #2`"]
         hydrosurvey["Hydrogeological Survey"]
         contracts["`Land and Drilling Contracts`"]
-        borehole2-->hydrosurvey-->contracts
+        drilling["`Drilling `"]
+        class hydrosurvey,contracts,drilling Implementation2a
+        hydrosurvey-->contracts-->drilling
     end
 
     subgraph C [Pump]
