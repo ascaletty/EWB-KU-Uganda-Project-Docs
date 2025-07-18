@@ -1,18 +1,12 @@
-# Quartz v4
+This is a digital documentation for the EWB-KU Uganda Project
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+#Contributing 
+To contribute, clone the repo 
+```
+$ git clone https://github.com/ascaletty/EWB-KU-Uganda-Project-Docs 
+```
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
-
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
-
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
-
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+Then go to the content folder. 
+This is where the directory you will want your obsidian vault directory to point to 
+In addition, you can just create files in VScode or a text editor ending in .md for markdown and add entries to the 
+documentation there
