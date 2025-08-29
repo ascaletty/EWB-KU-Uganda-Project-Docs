@@ -4,16 +4,14 @@ aliases: []
 tags: []
 title: Uganda Project Docs
 ---
-Uganda Project Docs 
-
 ```
-flowchart TB 
-subgraph Implementation Phase 1a&b
-markdown["Borehole"]--> Water Testing-->
-subgraph Implementation Phase 1c
-Temporary Seal--> Hand Pump--> Concrete Seal
-
-
+flowchart TD
+    A[Borehole] --> B{Is it working?}
+    B -->|Yes| C[Great!]
+    B -->|No| D[Debug]
+    C --> E[Enjoy using Mermaider]
+    D --> F[Check the error messages]
+    F --> G[Fix the issue]
+    G --> B
 ```
-
 
