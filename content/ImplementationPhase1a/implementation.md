@@ -12,7 +12,7 @@ Implementation Phase 1a involved setting up the land and drilling contracts for 
 - [x] Water testing
 - [x] hydro geological survey
 
-## Hydro geological survey
+## Hydro Geological Survey
 Take a look at the hydrogeological survey if you would like below.
 <details>
 <summary><b>hydrosurvey</b></summary>
@@ -30,9 +30,13 @@ A lot of design was done during this phase including the design of the borehole,
 Land agreements were contracted and signed during this period. This included the agreement for the land where we drilling the borehole and the future location for the water tower. 
 <details>
 <summary><b> Land Agreements</b></summary>
-  <iframe src="../assets/land_agreement_r2.docx" width="600" height="450" frameborder="0" style="border:0"></iframe>
+  <iframe src="../assets/land_agreement_r2.pdf" width="600" height="450" frameborder="0" style="border:0"></iframe>
 
 
 </details> 
 
+## Drilling Contracts and Driller Selection
+In this phase we selected Kasthew as our driller of choice after consideration from many drillers. We got ripped off on the price because they knew they could take advantage of our ignorance what a well actually cost. This has lead us to routing our future drilling selection through EWB-EA(Engineers without Borders East Africa), the office closest to our project site and people we work closely with.
 
+## Learn more 
+If you would like to learn more about this phase of our project I would suggest reading the docs above, but also reading the pre and post trip reports for implementation phase 1a&b.
