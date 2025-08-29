@@ -4,14 +4,18 @@ aliases: []
 tags: []
 title: Uganda Project Docs
 ---
-```
+```mermaid
 flowchart TD
-    A[Borehole] --> B{Is it working?}
-    B -->|Yes| C[Great!]
-    B -->|No| D[Debug]
-    C --> E[Enjoy using Mermaider]
-    D --> F[Check the error messages]
-    F --> G[Fix the issue]
+    subgraph Implementation Phase 1AB
+    A[Borehole] --> B{Water Testing}
+  subgraph Implementation Phase 1C
+    B -->C[Temporary Seal]
+    C --> D[Hand Pump]
+    D --> F[Concrete Seal]
+    subgraph Implementation Phase 2a
+    F --> G[Borehole #2]
     G --> B
 ```
+
+
 
